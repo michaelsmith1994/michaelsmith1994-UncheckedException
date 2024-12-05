@@ -13,6 +13,8 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int a = 5;
+        int b = 0;
+        System.out.println("Throwing a divide by zero exception: " + a/b);
     }
 }
